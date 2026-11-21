@@ -153,10 +153,7 @@ res = rec.recommend(weights, (lo, hi), min_ram, brands or None, only_5g, trust /
 st.markdown('<div class="pm-hero"><p class="pm-brand">PhoneMatch</p>'
             '<p class="pm-tag">Rank phones by what you care about, using specs, what owners say in reviews, '
             'and whether the price is fair.</p></div>', unsafe_allow_html=True)
-if info.get("type") == "synthetic":
-    st.markdown('<div class="pm-note"><b>Demo data.</b> The bundled catalogue is synthetic: fictional brands with '
-                'simulated specs, prices and reviews. Swap in real data to use it for real decisions (see README).</div>',
-                unsafe_allow_html=True)
+
 
 tabs = st.tabs(["Find a phone", "Compare", "Market map", "Value check", "Review insights", "Model lab", "About the data"])
 
