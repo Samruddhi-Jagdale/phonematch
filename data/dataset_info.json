@@ -1,0 +1,9 @@
+{
+  "type": "synthetic",
+  "name": "PhoneMatch demo catalogue",
+  "generator": "generate_data.py",
+  "seed": 42,
+  "n_phones": 2500,
+  "n_reviews": 32707,
+  "note": "Fictional brands and simulated specs, prices and reviews."
+}

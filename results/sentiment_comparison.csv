@@ -1,0 +1,4 @@
+Model,Accuracy,F1,ROC-AUC
+TF-IDF + Logistic Regression,0.883,0.897,0.914
+TF-IDF + Naive Bayes,0.871,0.887,0.909
+TF-IDF + Linear SVM,0.876,0.892,0.911

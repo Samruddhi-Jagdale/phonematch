@@ -1,0 +1,5 @@
+Method,Avg store rating,Avg value gap (%),Spec fit (0-100),Review fit (0-100),Brand diversity
+Top rated in budget (baseline),4.56,18.49,64.62,64.84,0.57
+Specs only,4.12,7.49,70.95,72.66,0.53
+Specs + value,4.23,15.76,73.19,72.65,0.5
+Hybrid: specs + reviews + value,4.2,14.7,71.59,78.38,0.47
